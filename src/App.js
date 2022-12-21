@@ -1,5 +1,6 @@
 import React, {useState,useEffect} from 'react';
-import './App.scss';
+import "./App.scss"
+
 
 const NEW_YEARS_EVE_DATE = new Date(2022, 11, 32, 0, 0, 0)
 
@@ -62,9 +63,12 @@ function App() {
     )
   }
 
-
   return (    
-    <div className='container'>
+  <div className='container'>
+
+    <h1 className='title'>Countdown to<br/> New Year's Eve</h1>
+
+    <div className='countdown'>
 
       <div className='flex'>
         <span className='font-big'>{countdown.days_diff} </span>
@@ -73,23 +77,25 @@ function App() {
 
 
       <div className='flex'>
-        <span className='font-big'>{countdown.hours_diff} </span>
-        <span className='font-small'>HOURS</span>
+          <span className='font-big'>{countdown.hours_diff} </span>
+          <span className='font-small'>HOURS</span>
       </div>
 
 
       <div className='flex'>
-        <span className='font-big'>{countdown.minutes_diff} </span>
-        <span className='font-small'>MINUTES</span>
+          <span className='font-big'>{countdown.minutes_diff} </span>
+          <span className='font-small'>MINUTES</span>
       </div>
 
 
       <div className='flex'>
-        <span className='font-big'>{countdown.seconds_diff} </span>
-        <span className='font-small'>SECONDS</span>
+          <span className='font-big'>{countdown.seconds_diff} </span>
+          <span className='font-small'>SECONDS</span>
       </div>
 
     </div>
+    
+  </div>
   );
 }
 
