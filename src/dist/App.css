@@ -36,11 +36,11 @@ body {
 }
 
 .font-big {
-  font-size: 4rem;
+  font-size: 8vw;
   font-weight: 700;
 }
 
-.font-big {
-  font-size: 1.85rem;
+.font-small {
+  font-size: 3.7vw;
   font-weight: 600;
 }
