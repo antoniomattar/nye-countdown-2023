@@ -2,7 +2,7 @@ import React, {useState,useEffect} from 'react';
 import "./App.scss"
 
 
-const NEW_YEARS_EVE_DATE = new Date(2023, 11, 32, 0, 0, 0)
+const NEW_YEARS_EVE_DATE = new Date(2024, 11, 32, 0, 0, 0)
 
 const getTimeDifference = () => {
       const currentTime = new Date()
