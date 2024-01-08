@@ -36,11 +36,10 @@ function App() {
         setLoading(false)
 
         if (
-          // countdown.days_diff <= 0
-          // && countdown.hours_diff <= 0
-          // && countdown.minutes_diff <= 0
-          // && 
-          countdown.seconds_diff <= 0
+          countdown.days_diff <= 0
+          && countdown.hours_diff <= 0
+          && countdown.minutes_diff <= 0
+          && countdown.seconds_diff <= 0
           ){
           setIsNewYear(true)
         }
